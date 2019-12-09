@@ -11,5 +11,6 @@ RSpec.describe PotterFacade do
 
   it '#house_members_count', :vcr do
     expect(@facade.house_members_count).to eq(21)
+    expect(@facade.members.first.name).to eq('Aberforth Dumbledore')
   end
 end
