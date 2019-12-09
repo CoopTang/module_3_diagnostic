@@ -43,7 +43,7 @@ RSpec.describe 'As a User' do
             expect(page).to have_content('Patronus: goat')
           end
           within '#member-5' do
-            expect(page).to have_content('Name: Aberforth Dumbledore')
+            expect(page).to have_content('Name: Augusta Longbottom')
             expect(page).to_not have_content('Role:')
             expect(page).to have_content('House: Gryffindor')
             expect(page).to_not have_content('Patronus:')
