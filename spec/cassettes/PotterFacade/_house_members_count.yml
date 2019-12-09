@@ -27,7 +27,7 @@ http_interactions:
       Connection:
       - keep-alive
       Set-Cookie:
-      - __cfduid=d27b09ae59597810fa778005ab35d660c1575914373; expires=Wed, 08-Jan-20
+      - __cfduid=d3a2c26d30780a7762215869ab3bcce2b1575914373; expires=Wed, 08-Jan-20
         17:59:33 GMT; path=/; domain=.potterapi.com; HttpOnly; Secure
       X-Powered-By:
       - Express
@@ -50,7 +50,7 @@ http_interactions:
       Server:
       - cloudflare
       Cf-Ray:
-      - 5428dfa4e972c7d9-DEN
+      - 5428dfa2bdd6c7c5-DEN
     body:
       encoding: ASCII-8BIT
       string: '[{"_id":"5a0fa7dcae5bc100213c2338","name":"Sirius Black","house":"Gryffindor","school":"Hogwarts

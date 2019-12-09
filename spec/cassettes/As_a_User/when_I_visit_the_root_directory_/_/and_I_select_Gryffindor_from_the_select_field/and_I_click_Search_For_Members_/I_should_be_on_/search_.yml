@@ -19,7 +19,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Mon, 09 Dec 2019 17:59:33 GMT
+      - Mon, 09 Dec 2019 18:01:55 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -27,8 +27,8 @@ http_interactions:
       Connection:
       - keep-alive
       Set-Cookie:
-      - __cfduid=d27b09ae59597810fa778005ab35d660c1575914373; expires=Wed, 08-Jan-20
-        17:59:33 GMT; path=/; domain=.potterapi.com; HttpOnly; Secure
+      - __cfduid=d6b6b8031bf78da41809f275a850d683c1575914515; expires=Wed, 08-Jan-20
+        18:01:55 GMT; path=/; domain=.potterapi.com; HttpOnly; Secure
       X-Powered-By:
       - Express
       Access-Control-Allow-Origin:
@@ -50,7 +50,7 @@ http_interactions:
       Server:
       - cloudflare
       Cf-Ray:
-      - 5428dfa4e972c7d9-DEN
+      - 5428e317bfc1c7d5-DEN
     body:
       encoding: ASCII-8BIT
       string: '[{"_id":"5a0fa7dcae5bc100213c2338","name":"Sirius Black","house":"Gryffindor","school":"Hogwarts
@@ -103,5 +103,5 @@ http_interactions:
         Witchcraft and Wizardry","alias":"Ron","wand":"Willow, 14\", unicorn hair
         tail","boggart":"Aragog","patronus":"jack russell terrier","__v":0,"ministryOfMagic":false,"orderOfThePhoenix":true,"dumbledoresArmy":true,"deathEater":false,"bloodStatus":"pure-blood","species":"human"}]'
     http_version: 
-  recorded_at: Mon, 09 Dec 2019 17:59:33 GMT
+  recorded_at: Mon, 09 Dec 2019 18:01:55 GMT
 recorded_with: VCR 5.0.0
