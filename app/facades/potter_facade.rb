@@ -24,5 +24,6 @@ class PotterFacade
     members_data.each do |member_data|
       @members.push(Member.new(member_data))
     end
+    @members.sort_by!(&:name)
   end
 end
