@@ -1,6 +1,6 @@
 class PotterService
   
-  def self.get_characters_by_house(house)
+  def self.get_members_by_house(house)
     response = ApiQuerier.query_api(
       'https://www.potterapi.com/v1/',
       "characters?house=#{house}&orderOfThePhoenix=true",
