@@ -36,13 +36,13 @@ RSpec.describe 'As a User' do
 
         it "I should see each member's info (name, role [if present], house, and patronus [if present]) on the page", :vcr do
           
-          within 'member-1' do
+          within '#member-1' do
             expect(page).to have_content('Name: Aberforth Dumbledore')
             expect(page).to have_content("Role: Owner, Hog's Head Inn")
             expect(page).to have_content('House: Gryffindor')
             expect(page).to have_content('Patronus: goat')
           end
-          within 'member-5' do
+          within '#member-5' do
             expect(page).to have_content('Name: Aberforth Dumbledore')
             expect(page).to_not have_content('Role:')
             expect(page).to have_content('House: Gryffindor')
