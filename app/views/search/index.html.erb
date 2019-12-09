@@ -1,2 +1,17 @@
 <h1><%= @facade.house_name %></h1>
 <h3>Results: <%= @facade.house_members_count %></h3>
+
+<section>
+  <% @facade.members.each.with_index do |member, i| %>
+    <article id='member-<%= i+1 %>'>
+      <%= "Name: #{member.name}" %><br>
+      <% if member.role %>
+        <%= "Role: #{member.role}"%><br>
+      <% end %>
+      <%= "House: #{member.house}" %><br>
+      <% if member.patronus %>
+        <%= "Patronus: #{member.patronus}" %><br>
+      <% end %><br>
+    </article>
+  <% end %>
+</section>
