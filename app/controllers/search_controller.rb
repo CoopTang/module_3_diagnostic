@@ -1,6 +1,6 @@
 class SearchController < ApplicationController
 
   def index
-    params[:house]
+    @facade = PotterFacade.new(params[:house])
   end
 end
