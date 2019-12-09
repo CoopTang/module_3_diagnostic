@@ -26,11 +26,11 @@ RSpec.describe 'As a User' do
           click_button 'Search For Members'
         end
           
-        it 'I should be on "/search"' do
+        it 'I should be on "/search"', :vcr do
           expect(current_path).to eq('/search')
         end
 
-        it 'I should see a total of the number of members for that house' do
+        it 'I should see a total of the number of members for that house', :vcr do
           expect(page).to have_content('Results: 21')
         end
       end
